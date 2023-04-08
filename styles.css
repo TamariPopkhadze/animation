@@ -1,0 +1,187 @@
+body{
+   min-height: 100vh;
+   width: 100%;
+}
+header{
+    width: 100%;
+    height:80vh;
+    background-color: aqua;
+    position: relative;
+}
+main{
+    width: 100%;
+    height: 20vh;
+    background-color: lightgreen;
+    position: relative;
+}
+.tree{
+    position: absolute;
+    left: 1300px;
+    top: -331px;
+    
+}
+.love-birds{
+    position: absolute;
+    margin-top: -200px;
+    left: 1600px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.sun {
+    width: 312px;
+    height: 312px;
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .heart{
+    position: absolute;
+    left: 1623px;
+    width: 30px;
+    height: 30px;
+    animation: heart-move 2s infinite linear;
+}
+@keyframes heart-move{
+    from{
+        top: -205px;
+    }
+    to{
+        top: -220px ;
+    }
+}
+.cloudy{
+    margin-top: -800px;
+    position:absolute;
+    animation: cloudy-move 10s infinite linear;
+}
+@keyframes cloudy-move{
+    from{
+        left: 1400px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+.slider{
+    position: absolute;
+    top: -250px;
+    left: 500px;
+    width: 400px;
+    height: 400px;
+}
+.children{
+    position: relative;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+    animation: children-move 6s 1 linear;
+}
+@keyframes children-move{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 1000px;
+    }
+}
+.family{
+    position: relative;
+    left: 800px;
+    width: 100px;
+    height: 100px;
+    animation: family-move 5s 1 linear;
+}
+@keyframes family-move{
+    from{
+        top:-90px;
+    }
+    to{
+        top: 50px;
+    }
+}
+.ball{
+    position: absolute;
+    top:10px;
+    width: 50px;
+    height: 50px;
+    animation: ball-move 5s 1 linear;
+}
+@keyframes ball-move{
+    from{
+        left: 110px;
+    }
+    to{
+        left: 1000px;
+    }
+}
+.flowers{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+.mum{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 800px;
+}
+.kite{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 700px;
+    animation: kite 5s infinite linear;
+}
+@keyframes kite {
+    from{
+        top: -200px;
+    }
+    to{
+        top: -100px;
+    }
+}
+.bird{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: -200px;
+    
+    animation: bird-fly 5s infinite linear;
+}
+@keyframes bird-fly{
+    from{
+        top: -500px;
+    }
+    to{
+        top: -800px
+    }
+}
+.balloons{
+    position: relative;
+    width: 150px;
+    height: 150px;
+   
+    animation: balloons 10s infinite linear ;
+}
+ @keyframes  balloons {
+    from{
+        top: -600px;
+        left: 900px;
+    }
+    to{
+        top: -400px;
+        left: 300px;
+    }
+ }
